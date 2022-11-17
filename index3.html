@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Task-list</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="hide">
+       <div class="nav">
+           <h1>Tasks <span class="color_blue">List</span></h1>
+       </div>
+       <div class="flex index3_flex">
+           <div class="back">
+               <a href=""><i class="fa-solid fa-circle-arrow-left"></i></a>
+           </div>
+           <div class="add_task1">
+               <a href="index1.html"><i class="fa-solid fa-circle-plus color_blue"></i><span class="tex_center">Add New Task</span></a>
+           </div>
+       </div>
+       <div class="card3">
+           <h4><a href="#" class="color_blue">Trip to paris</a></h4>
+           <hr class="hr">
+           <ul>
+               <li>
+                   <input type="checkbox" checked name="trip" id="checkbox">
+                   <label for="trip" id="label">Visit Church</label>
+                   <br>
+               </li>
+               <li>
+                   <input type="checkbox" name="Shopping" id="checkbox">
+                   <label for="Shopping">Shopping</label>
+               </li>
+           </ul>
+       </div>
+   </div>
+   <div>
+       <div class="card2">
+           <h4><a href="#" class="color_blue">Add New Item</a></h4>
+           <a href="index.html" class="close"><i class="fa-solid fa-xmark"></i></a>
+           <hr class="hr">
+           <div class="ul">
+               <form action="index2.html" method="get">
+                   <input type="text" name="Title" placeholder="Visit Famous Places" id="entry">
+                   <a href="index.html" id="add_todo"><i class="fa-solid fa-plus"></i> Add Item</a>
+               </form>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
